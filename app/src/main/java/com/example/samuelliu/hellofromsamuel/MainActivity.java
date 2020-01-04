@@ -24,6 +24,12 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.rootView).setBackgroundColor(getResources().getColor(R.color.lightGray));
             }
         });
+        findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v){
+                ((TextView) findViewById(R.id.textView)).setText("Goodbye!");
+            }
+        });
 
     }
 }
