@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">HelloFromSamuel</string>
+    <string name="req">Hello From Samuel!</string>
 </resources>
