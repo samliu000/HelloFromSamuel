@@ -1,7 +1,7 @@
 ## Hello From Samuel App
 
 ### App Description
-This app displays the message "Hello from Samuel!" in blue text and can be changed by pressing the button that says "CHANGE TEXT COLOR". The background of the app is light blue. 
+This app displays the message "Hello from Samuel!" in blue text and can be changed by typing a message into the EditText Bar and pressing the button that says "CHANGE TEXT COLOR". The background of the app is light blue and can be changed using the "CHANGE VIEW COLOR" BUTTON. When the background is clicked, the app is reset and the views are all changed back to their original states (when the app is first opened).
 
 ### App Walk-though
 ![](PreworkGIF.gif)
