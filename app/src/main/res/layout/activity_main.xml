@@ -15,10 +15,10 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="113dp"
+        android:layout_marginTop="111dp"
         android:text="@string/req"
         android:textColor="?attr/colorPrimaryDark"
-        android:textSize="24sp" />
+        android:textSize="28sp" />
 
     <Button
         android:id="@+id/button"
@@ -45,5 +45,16 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="148dp"
         android:text="Change Text" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="300sp"
+        android:layout_height="100sp"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:allowUndo="true"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/white"
+        android:textCursorDrawable="@color/white"/>
 
 </RelativeLayout>
