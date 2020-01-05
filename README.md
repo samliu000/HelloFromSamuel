@@ -4,8 +4,6 @@
 This app displays the message "Hello from Samuel!" in blue text and can be changed by pressing the button that says "CHANGE TEXT COLOR". The background of the app is light blue. 
 
 ### App Walk-though
-`TODO://` Add the URL to your animated app walk-though `gif` in the image tag below. Make sure the gif actually renders and animates when viewing this README. (☝️ Remove this paragraph after after adding gif)
-
 ![](PreworkGIF.gif)
 
 ### Required User Stories
