@@ -18,18 +18,31 @@ public class MainActivity extends AppCompatActivity {
                 ((TextView) findViewById(R.id.textView)).setTextColor(getResources().getColor(R.color.white));
             }
         });
+
         findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 findViewById(R.id.rootView).setBackgroundColor(getResources().getColor(R.color.lightGray));
             }
         });
+
         findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
                 ((TextView) findViewById(R.id.textView)).setText("Goodbye!");
+        }
+        });
+
+        findViewById(R.id.rootView).setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                ((TextView) findViewById(R.id.textView)).setTextColor(getResources().getColor(R.color.colorPrimary));
+                findViewById(R.id.rootView).setBackgroundColor(getResources().getColor(R.color.newColors));
+                ((TextView) findViewById(R.id.textView)).setText("Hello From Samuel!");
             }
         });
+
+
 
     }
 }
